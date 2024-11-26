@@ -12,7 +12,7 @@ jest.mock('react-redux', () => ({
 
 test('renders moviecard with no data', () => {
   renderWithProviders(<MoviesCard />);
-  const noRecord = screen.getByText(/No movie selected.../i)
+  const noRecord = screen.getByText(/No movie selected./i)
   expect(noRecord).toBeInTheDocument()
 });
 

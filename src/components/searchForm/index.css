@@ -12,6 +12,10 @@
   width: 90%;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .btn-bg {
   background-color: #CCC;
 }

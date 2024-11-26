@@ -15,9 +15,9 @@ export const MoviesCard = () => {
         <div className="discription mt-3 fw-light">
           Directed By:  {movieData?.director}
         </div>
-      </div> : <h4 className=" alert alert-warning">
-        No movie selected...
-      </h4>}
+      </div> : <div className="text-center">
+        No movie selected.
+      </div>}
 
     </div >
   )
