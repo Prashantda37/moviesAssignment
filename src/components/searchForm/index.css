@@ -1,0 +1,33 @@
+.searchPanel {
+  background-color: #f1f1f1;
+  color: #d1d0d0;
+}
+
+.searchIcon {
+  background-color: #FFF;
+  color: #a5a5a5;
+}
+
+.searchBox {
+  width: 90%;
+}
+
+.btn-bg {
+  background-color: #CCC;
+}
+
+.btn-bg:hover {
+  background-color: #373737;
+}
+
+.form-control:focus {
+  border-color: #dee2e6 !important;
+  border-left-color: #FFF !important;
+  outline: 0;
+  box-shadow: none;
+  color: none;
+}
+
+.inputElement {
+  border-left-color: #FFF;
+}
